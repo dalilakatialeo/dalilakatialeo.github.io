@@ -20,6 +20,12 @@
     background-size: cover;
 }
 
+.project-body {
+    background-image: url("././images/mobile/background-mobile-projects.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #hero {
     background-color: #fff;
     display: flex;
