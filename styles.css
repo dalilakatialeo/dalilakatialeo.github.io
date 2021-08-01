@@ -2,8 +2,14 @@
     border: 1px solid red;
 } */
 
-body {
+#index-body {
     background-image: url("././images/mobile/background-mobile-home.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#art-body {
+    background-image:url("././images/mobile/background-mobile-lilac.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -33,11 +39,50 @@ body {
 #hero h2 {
     font-family: 'Fira Code', monospace;
     font-size: .8rem;
-    font-weight: 200;
+    font-weight: 300;
     margin-top: 0;
 
 }
 
+nav {
+    background-color: #fff;
+    opacity: 80%;
+    margin: 3% -2% 0 -2%;
+    justify-content: center;
+    text-align: center;
+    padding: 2%;
+}
+
 a {
     text-decoration: none;
+    font-family: 'Fira Code', monospace;
+    color:#183450;
+    font-size: 1em;
+    font-weight: 500;
+    padding-left: 3.5%;
+}
+
+a.selected {
+    font-weight: 700;
+}
+
+#bio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+    margin-top: 52%;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+#bio p {
+    font-family: 'Fira Code', monospace;
+    color: #fff;
+    font-size: .9em;
+    font-weight: 300;
+    text-align: center;
+}
+
+#bio #resume-link {
+    color: #183450;
 }
