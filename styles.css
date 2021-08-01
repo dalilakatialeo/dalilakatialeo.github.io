@@ -87,6 +87,10 @@ a.selected {
     margin-right: 8%;
 }
 
+#stack {
+    margin-bottom: 8%;
+}
+
 p {
     font-family: 'Fira Code', monospace;
     color: #fff;
@@ -102,6 +106,7 @@ p {
 img {
     width: 2.5em;
     height: auto;
+    padding: 1%;
 }
 
 .stack-icons {
