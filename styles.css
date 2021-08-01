@@ -58,12 +58,12 @@ a {
     font-family: 'Fira Code', monospace;
     color:#183450;
     font-size: 1em;
-    /* font-weight: 500; */
+    font-weight: 500;
     padding-left: 3.5%;
 }
 
 a.selected {
-    /* font-weight: 700; */
+    font-weight: 700;
 }
 
 #bio {
@@ -79,7 +79,7 @@ a.selected {
     font-family: 'Fira Code', monospace;
     color: #fff;
     font-size: .9em;
-    /* font-weight: 300; */
+    font-weight: 300;
     text-align: center;
 }
 
