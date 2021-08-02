@@ -133,7 +133,7 @@ img {
     margin-bottom: 2%;
 }
 
-#blog-post h2 {
+#blog-post h2, #projects h2 {
     font-family: 'Fira Code', monospace;
     color: #183450;
     font-size: .9em;
@@ -141,4 +141,43 @@ img {
     text-align: center;
     margin-top:0;
     margin-bottom: 2%;
+}
+
+#projects h1 {
+    font-family: 'Fira Code', monospace;
+    color: #183450;
+    font-size: 1.1em;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+#projects p {
+    color: #183450;
+    margin: 0;
+}
+
+#projects-intro {
+    margin-top: 25%;
+    margin-bottom: 10%;
+}
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 85%;
+    margin:auto;
+}
+
+.projects {
+    border: 1px solid #183450;
+    padding-bottom: 5%;
+}
+
+.thumb {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
 }
