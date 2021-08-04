@@ -2,30 +2,31 @@
     border: 1px solid red;
 } */
 
-body {
-    background-attachment: fixed;
-}
-
 #index-body {
     background-image: url("././images/mobile/background-mobile-home.png") ;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
-.art-body {
+.art-body, #blog-body{
     background-image:url("././images/mobile/background-mobile-lilac.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 #blog-body {
+    background-attachment: local;
     background-size: 100%;
+    background-attachment: fixed;
 }
 
 .code-body {
     background-image: url("././images/mobile/background-mobile-turq.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .project-body {
@@ -33,6 +34,7 @@ body {
     background-repeat: repeat-y;
     background-size: 100%;
     background-position:top;
+    background-attachment: fixed;
 }
 
 #hero {
@@ -92,10 +94,6 @@ a {
 
 a.selected {
     font-weight: 700;
-}
-
-main {
-    background-attachment: scroll;
 }
 
 #bio, #stack {
