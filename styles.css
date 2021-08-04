@@ -94,6 +94,10 @@ a.selected {
     font-weight: 700;
 }
 
+main {
+    background-attachment: scroll;
+}
+
 #bio, #stack {
     display: flex;
     flex-direction: column;
