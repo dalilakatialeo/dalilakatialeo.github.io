@@ -69,14 +69,18 @@ header {
 }
 
 #blog-header {
+    position:fixed;
+    z-index: -1;
     background-image: url("././images/mobile/background-mobile-blog.png");
     background-size: cover;
     height: 40%;
     margin: 0 -2% 0 -2%;
-    z-index: -2;
 }
 
 nav {
+    position: fixed;
+    z-index:2;
+    width: 100%;
     background-color: #fff;
     opacity: 80%;
     margin: 3% -3% 0 -3%;
@@ -195,7 +199,6 @@ img {
 .projects {
     border: 1px solid #183450;
     padding: 3% 3% 5% 3%;
-
     margin-bottom: 2%;
 }
 
@@ -212,7 +215,7 @@ img {
     justify-content: center;
     margin:auto;
     width: 90%;
-    margin-top: 70%;
+    margin-top: 30%;
 }
 
 .blog-post{
@@ -221,5 +224,4 @@ img {
     padding: 2%;
     border: 2px solid #739be0;
     margin-bottom: 5%;
-
 }
