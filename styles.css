@@ -2,6 +2,10 @@
     border: 1px solid red;
 } */
 
+body {
+    background-attachment: fixed;
+}
+
 #index-body {
     background-image: url("././images/mobile/background-mobile-home.png") ;
     background-repeat: no-repeat;
@@ -15,7 +19,6 @@
 }
 
 #blog-body {
-    background-attachment: fixed;
     background-size: 100%;
 }
 
