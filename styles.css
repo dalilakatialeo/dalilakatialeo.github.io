@@ -246,6 +246,7 @@ img {
     font-weight:200;
     font-size: 3em;
     text-align: center;
+    margin-bottom: 3%;
 }
 
 form {
@@ -301,7 +302,7 @@ button {
     margin-top: 8%;
 }
 
-#contact-details p {
+#contact-details {
     font-family: 'Fira Code', monospace;
     color: #fff;
     text-align: center;
