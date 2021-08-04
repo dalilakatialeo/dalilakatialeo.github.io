@@ -135,6 +135,12 @@ p{
     color: #183450;
 }
 
+#socials {
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+
 img {
     width: 2.5em;
     height: auto;
@@ -279,15 +285,16 @@ input, textarea {
 
 button {
     width: 25%;
+    height: 50%;
     font-family: 'Euphoria Script', cursive;
-    font-size: 1em;
+    font-size: 1.7em;
     color: #fff;
     background-color: #183450;
     display: flex;
     justify-content: center;
     margin: auto;
     margin-top: 4%;
-    padding: 1%;
+    padding: 2%;
 }
 
 #contact-details {
