@@ -74,9 +74,10 @@ header {
     top:0;
     z-index: 0;
     background-image: url("././images/mobile/background-mobile-blog.png");
-    background-size: cover;
-    height: 50%;
-    width:100%;
+    background-size:cover;
+    background-position: top;
+    height:60%;
+    width: 100%;
     margin: 0 -2% 8% -2%;
 }
 
