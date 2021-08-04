@@ -229,3 +229,74 @@ img {
     border: 2px solid #739be0;
     margin-bottom: 5%;
 }
+
+#form-div {
+    margin-top: 62%;;
+}
+
+#form-div h1 {
+    font-family: 'Euphoria Script', cursive;
+    color: #fff;
+    font-weight:200;
+    font-size: 3em;
+    text-align: center;
+}
+
+form {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    width: 80%;
+    background-color: #fff;
+    border: 2px solid #e4e7eb;
+    padding: 5%;
+}
+
+.form-item {
+    font-family: 'Fira Code', monospace;
+    color: #183450;
+    font-weight: 300;
+    font-size: .7em;
+    padding-bottom: 2%;
+}
+
+label, input, textarea {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: 97%;
+    border: none;
+}
+
+label {
+    text-align: center;
+}
+
+input, textarea {
+    background-color: #e4e7eb;
+}
+
+button {
+    width: 25%;
+    font-family: 'Euphoria Script', cursive;
+    font-size: 1em;
+    color: #fff;
+    background-color: #183450;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 4%;
+    padding: 1%;
+}
+
+#contact-details {
+    margin-top: 15%;
+}
+
+#contact-details p {
+    font-family: 'Fira Code', monospace;
+    color: #fff;
+    text-align: center;
+    font-size: .7em;
+}
