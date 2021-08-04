@@ -6,27 +6,23 @@
     background-image: url("././images/mobile/background-mobile-home.png") ;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
 }
 
-.art-body, #blog-body{
+.art-body {
     background-image:url("././images/mobile/background-mobile-lilac.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
 }
 
 #blog-body {
-    background-attachment: local;
+    background-color: #739be0;
     background-size: 100%;
-    background-attachment: fixed;
 }
 
 .code-body {
     background-image: url("././images/mobile/background-mobile-turq.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
 }
 
 .project-body {
@@ -34,7 +30,6 @@
     background-repeat: repeat-y;
     background-size: 100%;
     background-position:top;
-    background-attachment: fixed;
 }
 
 #hero {
@@ -71,6 +66,14 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
+}
+
+#blog-header {
+    background-image: url("././images/mobile/background-mobile-blog.png");
+    background-size: cover;
+    height: 40%;
+    margin: 0 -2% 0 -2%;
+    z-index: -2;
 }
 
 nav {
@@ -218,5 +221,5 @@ img {
     padding: 2%;
     border: 2px solid #739be0;
     margin-bottom: 5%;
-    z-index:-1;
+
 }
