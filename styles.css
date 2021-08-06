@@ -93,7 +93,7 @@ nav {
     padding: 2%;
 }
 
-a {
+nav a {
     text-decoration: none;
     font-family: 'Fira Code', monospace;
     color:#183450;
@@ -102,7 +102,7 @@ a {
     padding: 2%;
 }
 
-a.selected {
+nav a.selected {
     font-weight: 700;
 }
 
@@ -227,10 +227,13 @@ p {
     padding-top: 5%;
 }
 
+#socials a {
+    padding:0% 8% 2% 8%;
+}
+
 img {
     width: 2.5em;
     height: auto;
-    padding: 1%;
 }
 
 .stack-icons {
