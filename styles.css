@@ -93,7 +93,7 @@ nav {
     padding: 2%;
 }
 
-nav a {
+nav a, a {
     text-decoration: none;
     font-family: 'Fira Code', monospace;
     color:#183450;
