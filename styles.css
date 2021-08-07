@@ -311,6 +311,10 @@ input, textarea {
     background-color: #e4e7eb;
 }
 
+textarea {
+    height: 80px;
+}
+
 button {
     width: 25%;
     height: 50%;
