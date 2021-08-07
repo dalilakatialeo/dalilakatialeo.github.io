@@ -447,9 +447,17 @@ button {
         background-size: 115%;
     }
     #hero {
-        margin-top: 25%;
+        margin-top: 18%;
         width: 50%;
         padding: 5%;
+    }
+
+    #hero h1 {
+        font-size: 5em
+    }
+
+    #hero h2 {
+        font-size: 1.8em;
     }
 
     .projects {
