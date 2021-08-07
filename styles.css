@@ -344,7 +344,7 @@ button {
 
 /* media queries for landscape mobile and tablet view */
 
-@media (min-width: 650px) {
+@media (min-width: 900px) {
     #index-body {
         background-image: url("././images/desktop/background_desktop-home.png");
     }
