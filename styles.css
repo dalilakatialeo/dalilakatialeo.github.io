@@ -312,7 +312,7 @@ input, textarea {
 }
 
 textarea {
-    height: 80px;
+    height: 10vH;
 }
 
 button {
