@@ -400,7 +400,7 @@ button {
     }
 
     #projects h1 {
-        font-size: 1em;
+        font-size: 3em;
     }
 
     #blog {
@@ -460,6 +460,10 @@ button {
         font-size: 1.8em;
     }
 
+    #projects-intro {
+        margin-top: 10%;
+    }
+
     .projects {
         width:30%;
         margin: 2%;
@@ -474,9 +478,18 @@ button {
         justify-content: center;
         margin: 1%;
     }
+    #projects h1 {
+        font-size: 2em;
+    }
 
     #form-div {
-        width: 40%;
-        margin-top: 10%;
+        width: 30%;
+        margin-top: 8%;
+    }
+    #form-div h1 {
+        font-size: 3em;
+        padding-top: 1%;
+        padding-bottom: .5%;
+        margin-top: 3%;
     }
 }
