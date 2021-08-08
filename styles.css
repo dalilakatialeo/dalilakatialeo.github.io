@@ -135,7 +135,7 @@ nav a.selected {
 
 #bio, #stack {
     background-color: #fff;
-    opacity: 85%;
+    opacity: 90%;
 }
 
 #stack {
@@ -231,7 +231,7 @@ p {
 }
 
 .blog-post {
-    opacity: 80%;
+    opacity: 85%;
     padding: 2%;
     border: 2px solid #739be0;
     margin-bottom: 5%;
@@ -371,14 +371,6 @@ button {
     }
   
     nav {
-        position: fixed;
-        z-index:2;
-        width: 100%;
-        opacity: 80%;
-        margin: 3% -3% 0 -3%;
-        border: 2px solid #183450;
-        justify-content: center;
-        text-align: center;
         padding-top: .5%;
         padding-bottom: .5%;
     }
