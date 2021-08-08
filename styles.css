@@ -384,7 +384,7 @@ button {
     }
 
     #bio, #stack {
-        margin-top: 10%;
+        margin-top: 20%;
         padding: 2%;
         width: 70%;
     }
@@ -392,7 +392,6 @@ button {
     #stack {
         margin-bottom:2%;
     }
-
 
     p {
         font-size: .9em;
@@ -474,6 +473,10 @@ button {
 
     #hero h2 {
         font-size: 1.8em;
+    }
+
+    #bio, #stack, #blog {
+        margin-top: 10%;
     }
 
     #projects-intro {
