@@ -4,9 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dalila Katia Leo - Contact</title> <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Euphoria+Script&family=Fira+Code:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="code-body">
+    <header>
+        <nav>
+            <a href="about.html">About</a>
+            <a href="stack.html">Stack</a>
+            <a href="projects.html">Projects</a>
+            <a href="blog.html">Blog</a>
+            <a class="selected" href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main id="form-div">
+        <h1>Get in touch!</h1>
+        <form id="form" action="https://formspree.io/f/mdoywwrj" method="POST">
+            <div class="form-item">
+                <label for="name">Your name</label>
+                <input type="text" id="name" name="name">
+            </div>
+            <div class="form-item">
+                <label for="email" id="email" name="email">Your email</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="form-item">
+                <label for="message">Your message</label>
+                <textarea id="message" name="message"></textarea>
+            </div>
+                <button type="submit">Send!</button>
+            </form>
+            <div id="contact-details">
+                <p>dalilakatialeo@gmail.com</p>
+                <p>+61 0435 242576</p>
+            </div>
+        </div>
+    </main>
     
 </body>
 </html>
