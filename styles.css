@@ -202,7 +202,6 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 85%;
     margin:auto;
 }
 
@@ -218,6 +217,14 @@ p {
 
 .projects:hover {
    transform: scale(1.05)
+}
+
+#project-thumbs {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    justify-content: center;
+    margin: auto;
 }
 
 #blog {
@@ -476,18 +483,14 @@ button {
     }
 
     .projects {
-        width:30%;
-        margin: 2%;
-    }
+        width:25%;
+        margin:1%;
 
-    #projects {
-        width: 90%;
     }
 
     #project-thumbs {
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         justify-content: center;
-        margin: 1%;
     }
     #projects h1 {
         font-size: 2em;
