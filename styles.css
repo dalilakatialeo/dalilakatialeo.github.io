@@ -276,6 +276,7 @@ img {
     justify-content: center;
     margin: auto;
     margin-bottom: 10%;
+    border: 1px solid #183450;
 }
 
 /* submission form page */
