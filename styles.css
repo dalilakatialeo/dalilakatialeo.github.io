@@ -193,6 +193,10 @@ p {
     margin: 0;
 }
 
+#projects .bottom-p {
+    margin-top: 5%;
+}
+
 #projects-intro {
     margin-top: 25%;
     margin-bottom: 10%;
@@ -268,6 +272,10 @@ img {
     margin: auto;
     padding-top: 3%;
     padding-bottom: 3%;
+}
+
+#drf {
+    width: 15%;
 }
 
 .thumb {
