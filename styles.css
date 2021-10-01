@@ -268,15 +268,17 @@ img {
 .stack-icons {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
+    max-width: 100%;
     margin: auto;
     padding-top: 3%;
     padding-bottom: 3%;
 }
 
 #drf {
-    width: 15%;
-    height: auto;
+    width: 5em;
+    height: 2.5em;
 }
 
 .thumb {
@@ -495,7 +497,6 @@ button {
     .projects {
         width:25%;
         margin:1%;
-
     }
 
     #project-thumbs {
