@@ -232,6 +232,10 @@ p {
     margin: auto;
 }
 
+#repo-link:hover {
+    text-decoration: underline;
+}
+
 #blog {
     display: flex;
     z-index: 1;
