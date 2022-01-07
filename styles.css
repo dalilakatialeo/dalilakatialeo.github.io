@@ -144,7 +144,7 @@ nav a.selected {
 
 }
 
-p {
+p, .blog-post li {
     font-family: 'Fira Code', monospace;
     color: #183450;
     font-size: .9em;
@@ -221,7 +221,7 @@ p {
 }
 
 .projects:hover {
-   transform: scale(1.05)
+    transform: scale(1.05)
 }
 
 #project-thumbs {
@@ -253,6 +253,9 @@ p {
     margin-bottom: 5%;
 }
 
+ul {
+    list-style-position: inside;
+}
 /* icons and images */
 
 #socials {
